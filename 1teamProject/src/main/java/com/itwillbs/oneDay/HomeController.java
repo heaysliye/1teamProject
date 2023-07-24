@@ -28,7 +28,7 @@ public class HomeController {
 		
 		
 		
-		return "redirect:/class/classlist";
+		return "redirect:/main/classMain";
 	}
 	
 }

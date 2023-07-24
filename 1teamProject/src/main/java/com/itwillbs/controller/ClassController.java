@@ -28,6 +28,11 @@ public class ClassController {
 		return "main/property-single";
 	}//
 	
+	@RequestMapping(value = "/main/classMain", method = RequestMethod.GET)
+	public String main() {
+		
+		return "main/classMain";
+	}
 	
 	
 	
