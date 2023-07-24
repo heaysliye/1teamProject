@@ -38,6 +38,7 @@ public class ClassController {
 	public String login() {
 		
 		return "main/login";
+		
 	}
 	
 	
