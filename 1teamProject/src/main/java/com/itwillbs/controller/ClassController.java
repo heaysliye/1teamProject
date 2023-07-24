@@ -29,10 +29,17 @@ public class ClassController {
 	}//
 	
 	@RequestMapping(value = "/main/classMain", method = RequestMethod.GET)
-	public String main() {
+	public String classMain() {
 		
 		return "main/classMain";
 	}
+	
+	@RequestMapping(value = "/main/login", method = RequestMethod.GET)
+	public String login() {
+		
+		return "main/login";
+	}
+	
 	
 	
 	
