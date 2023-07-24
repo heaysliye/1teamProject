@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!-- /*
 * Template Name: Property
 * Template Author: Untree.co
@@ -24,12 +26,12 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css" />
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="../resources/mainCss/fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="../resources/mainCss/fonts/flaticon/font/flaticon.css" />
 
-    <link rel="stylesheet" href="css/tiny-slider.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../resources/mainCss/css/tiny-slider.css" />
+    <link rel="stylesheet" href="../resources/mainCss/css/aos.css" />
+    <link rel="stylesheet" href="../resources/mainCss/css/style.css" />
 
     <title>
       Property &mdash; Free Bootstrap 5 Website Template by Untree.co
@@ -37,7 +39,7 @@
   </head>
   <body>
        <!-- header -->
-    <jsp:include page="../inc/top.jsp"></jsp:include>
+  <%--   <jsp:include page="../resources/mainCss/inc/top.jsp"></jsp:include> --%>
 
     <div
       class="hero page-inner overlay"
@@ -137,7 +139,7 @@
     </div>
 
        <!-- footer -->
-    <jsp:include page="../inc/bottom.jsp"></jsp:include>
+   <%--  <jsp:include page="../resources/mainCss/inc/bottom.jsp"></jsp:include> --%>
     <!-- /.site-footer -->
 
     <!-- Preloader -->
