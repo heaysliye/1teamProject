@@ -4,12 +4,15 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>네이버 로그인</title>
+	<title>login</title>
 	<link rel="stylesheet" type="text/css"  href="css/loginstyle.css">
 <!-- 	폰트 바꿔도 됨  -->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+
+
 	<div class="main-container">
 		<div class="main-wrap">
 		<header>
